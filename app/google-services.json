@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "978693801009",
+    "firebase_url": "https://tophawks-9f960.firebaseio.com",
+    "project_id": "tophawks-9f960",
+    "storage_bucket": "tophawks-9f960.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978693801009:android:40537a33f4a88890",
+        "android_client_info": {
+          "package_name": "somani.siddharth.tophawks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978693801009-to6mvlihitf973htqescun86gm6ump1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAab6jBdI7VePYdbfHlmwO7DzAluIop2lU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
