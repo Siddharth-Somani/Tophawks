@@ -5,47 +5,67 @@
     android:gravity="center_horizontal"
     android:orientation="vertical" >
 
-<ImageView
-android:layout_width="60dp"
-android:layout_height="60dp"
-android:layout_marginTop="60dp"
-/>
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        />
 
-<TextView
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:layout_marginTop="25dp"
-android:text="YOU ARE AT"
-android:textColor="#000"
-android:textSize="25dp"
-android:textStyle="bold" />
 
-<TextView
-android:id="@+id/lblLocation"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:gravity="center_horizontal"
-android:padding="15dp"
-android:textColor="#000"
-android:textSize="16dp" />
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_above="@+id/YouAreAt"/>
 
-<Button
-        android:id="@+id/btnShowLocation"
+
+    <TextView
+        android:id="@+id/YouAreAt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:text="MARK ATTENDANCE"
-        android:textColor="#fff"/>
+        android:layout_marginTop="25dp"
+        android:text="YOU ARE AT"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="15dp"
+        android:textColor="#000"
+        android:textSize="16dp" />
+
     <Button
         android:id="@+id/btnFace"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="FACE DETECTION"
+        android:text="TAKE PHOTO"
+        android:textColor="#fff"/>
+    <Button
+        android:id="@+id/btnPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="UPLOAD PHOTO"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/btnShowLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="MARK ATTENDANCE"
         android:textColor="#fff"/>
 
 </LinearLayout>
